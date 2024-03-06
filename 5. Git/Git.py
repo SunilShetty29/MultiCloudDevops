@@ -30,10 +30,6 @@
 " Distributed Version Control " :
 	* No Centeal Server.
 	* Every developer is a client, the server and the repository.
-	* Will have only 1 Repo from client.
-
-" Traditional Version Control " :
-	* In this model for every cleint will get 1 seperate Repo.
 
 " Git Support multiple languages " :
 	1. HTML
@@ -64,23 +60,27 @@
 	@ We need to craete the user for the first time alone @
 	@ user is used for tracking the code and file status @
 	2. git config --global user.name "Sunil" --> To create user.
-	3. git config --global user.email "k.sunikumar0491@gmail.com" --> To create User email.
+	3. git config --global user.email "k.sunikumar0491@gmail.com" --> To create 
+	User email.
 	4. git config --list --> To check the users list
 	@ For workspace = 1 user only @
 	@ If u add one more user it will overwrite with the previous user @
 	@ after creating the user developer will start developing the code @
 	5. Creat a file with VI editor @
 	6. git status --> To check the commits list
-	@ once development completed file will move to the "Staging Area or Indexing Area" @
+	@ once development completed file will move to the "Staging Area or 
+	Indexing Area" @
 	7. git add <filename> --> To move the file to staging area
 	8. git rm --cache <filename> --> To revert back file to Local repo
-	9. git add . --> To move all the files to staging area which are present in local repo
+	9. git add . --> To move all the files to staging area which are present in local 
+	repo
 	10. git commit -m "Commit Message" --> To move file to commit area
 	11. git log --> To check the status
 	12. Create GitHub account
 	13. Create one Repository
-	14. git remote add origin <created repo url>
+	14. git remote add origin <created repo url> (" 
+	https://github.com/SunilShetty29/MultiCloudDevops.git ")
 	@ used to establish the connection between Local repo to Remote Repo @
 	15. git remote --> To check the origin path is set or not
 	16. git push -u origin master
-	2. 
+

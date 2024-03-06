@@ -4,13 +4,16 @@
 	* It is a Repository or Version Control tool.
 	* Repository --> Where we can store our data.
 	* Version Control --> Will track individaual data by using different version.
-	* Git is used for source code management. It is free and open-source version control system used to handle small to very large projects efficiently.
-	* Git is used for tracking changes in the source code, enabling multiple developers to work together.
+	* Git is used for source code management. It is free and open-source version 
+	control system used to handle small to very large projects efficiently.
+	* Git is used for tracking changes in the source code, enabling multiple 
+	developers to work together.
 
 " What is a Repository " :
 	* 'Repo' = Repository
 	* Usually used to organize a single project.
-	* repos can contain folders and files, images, videos, spreadsheets and data sets - anything your project needs.
+	* repos can contain folders and files, images, videos, spreadsheets and data 
+	sets - anything your project needs.
 
 " What is a Version Control System " :
 	* A way to manage files and directories.
@@ -30,6 +33,10 @@
 " Distributed Version Control " :
 	* No Centeal Server.
 	* Every developer is a client, the server and the repository.
+	* Will have only 1 Repo from client.
+
+" Traditional Version Control " :
+	* In this model for every cleint will get 1 seperate Repo.
 
 " Git Support multiple languages " :
 	1. HTML
@@ -83,4 +90,3 @@
 	@ used to establish the connection between Local repo to Remote Repo @
 	15. git remote --> To check the origin path is set or not
 	16. git push -u origin master
-
